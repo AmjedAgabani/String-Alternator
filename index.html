@@ -17,22 +17,23 @@
     </div>
     <div class="row">
         <div class="col-12 text-center big-buffer">
-            <h2>Enter your two words below</h2>
+            <h2 id="combined-string">Enter your two words below</h2>
         </div>
     </div>
-    <form>
+    <form id="my-form">
         <div class="row big-buffer">
             <div class="col-6">
-                <input type="text" class="form-control" placeholder="Enter your first word here...">
+                <input id ="first-word" type="text" class="form-control" placeholder="Enter your first word here...">
             </div>
             <div class="col-6">
-                <input type="text" class="form-control" placeholder="Enter your second word here...">
+                <input id ="second-word" type="text" class="form-control" placeholder="Enter your second word here...">
             </div>
         </div>
-        <button type="submit" class="btn btn-color btn-lg small-buffer">Submit</button>
+        <button id="push-words" type="submit" class="btn btn-color btn-lg small-buffer">Submit</button>
     </form>
 </div>
-<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="scripts/jquery-3.3.1.min.js" type="text/javascript"></script>
+<script src="scripts/main.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
 </body>
