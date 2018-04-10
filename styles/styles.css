@@ -1,0 +1,29 @@
+﻿body
+{
+    background-color: #5cdb95;
+}
+
+h1 {
+    color: white;
+    font-size: 75px;
+    text-transform: uppercase;
+    font-family: Righteous, sans-serif;
+}
+
+h2 {
+    color: #05386b;
+    font-family: Righteous, sans-serif;
+}
+
+.big-buffer {
+    margin-top: 100px;
+}
+
+.small-buffer {
+    margin-top: 50px;
+}
+
+.btn-color {
+    background-color: #05386b;
+    color: white;
+}
